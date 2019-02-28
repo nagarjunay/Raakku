@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  Reservation-Booking</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Reservation-Booking</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 11 10:13:13 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>64 seconds (64972 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation.callTaxibutton()'><b>callTaxibutton</b><br>Test class: com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation<br>Parameters: fp-ifttest, ift, y<br/>
+<a href="#Output-535597191" onClick='toggleBox("Output-535597191", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-535597191" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-535597191">
+entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (98d855a6d2e458c499d8a6a7c09b302a)] -> xpath: //*[@id="txtUserId"]]<br/>
+entered password:-ift and object is[[ChromeDriver: chrome on XP (98d855a6d2e458c499d8a6a7c09b302a)] -> xpath: //*[@id="txtPassword"]]<br/>
+Clicked on configuration button is[[ChromeDriver: chrome on XP (98d855a6d2e458c499d8a6a7c09b302a)] -> xpath: //*[@id="btnLogIn"]]<br/>
+Clicked on call taxi button is[[ChromeDriver: chrome on XP (98d855a6d2e458c499d8a6a7c09b302a)] -> xpath: //*[@id="btnCallTaxi"]]<br/>
+<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\?????????????????????????-11_05_2018_10_14_16.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\?????????????????????????-11_05_2018_10_14_16.png' height='100' width='100'/></a><br/>
+=========>Finished <br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation@79be0360</td></tr>
+<tr>
+<td title='com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking.reservationBooking()'><b>reservationBooking</b><br>Test class: com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking<br>Parameters: fp-ifttest, ift, y<br/>
+<a href="#Output-1400773994" onClick='toggleBox("Output-1400773994", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1400773994" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1400773994">
+entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="txtUserId"]]<br/>
+entered password:-ift and object is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="txtPassword"]]<br/>
+Clicked on configuration button is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="btnLogIn"]]<br/>
+<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\ift-11_05_2018_10_13_21.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\ift-11_05_2018_10_13_21.png' height='100' width='100'/></a><br/>
+=========>Enter reservation booking details<br/>
+entered customer name id:-Kiran and object is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="txtName"]]<br/>
+Clicked on reservation button is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="frmBookingDetails"]/div/div[4]/div[1]/div/div[2]/label/span[3]]<br/>
+Clicked on date picker is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="ddlDate"]]<br/>
+Selected date from dropdown is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="ddlDate"]/option[7]]<br/>
+Clicked on cars dropdown is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="ddlVehicleQty"]]<br/>
+Select cars from dropdown is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="ddlVehicleQty"]/option[2]]<br/>
+entered remarks id:-landmark and object is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> id: txtRemarks]<br/>
+Clicked on call taxi button is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> id: btnCallTaxi]<br/>
+Clicked on yes button is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> id: btnYes]<br/>
+<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\landmark-11_05_2018_10_13_33.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\landmark-11_05_2018_10_13_33.png' height='100' width='100'/></a><br/>
+=========>Allocating taxi please wait<br/>
+<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\??????????????-11_05_2018_10_14_04.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\??????????????-11_05_2018_10_14_04.png' height='100' width='100'/></a><br/>
+=========>Finished reservation booking with order accepted receipt<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking@6321e813</td></tr>
+</table><p>
+</body>
+</html>

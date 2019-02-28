@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Regression suite 1]" parallel="classes">
+  <listeners>
+    <listener class-name="com.test.automation.RakuRaku.customListener.Listener"/>
+    <listener class-name="com.test.automation.RakuRaku.customListener.RetryListener"/>
+  </listeners>
+  <test thread-count="1" name="LoginPage(failed)" parallel="classes">
+    <classes>
+      <class name="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="verifyLogin" invocation-numbers="8 8 8"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.test.automation.RakuRaku.loginpage.TC002_Verifylogin -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [Regression suite 1] -->

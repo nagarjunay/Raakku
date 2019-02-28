@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[=========>Start verify login]]>
+    </line>
+    <line>
+      <![CDATA[entered facility id:-helloo and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-ift and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_helloo-10_05_2018_02_57_28.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_helloo-10_05_2018_02_57_28.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_29.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_29.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Start verify login]]>
+    </line>
+    <line>
+      <![CDATA[entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-hhh and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-10_05_2018_02_57_31.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-10_05_2018_02_57_31.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_32.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_32.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Start verify login]]>
+    </line>
+    <line>
+      <![CDATA[entered facility id:-ffffg and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-fffff and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_ffffg-10_05_2018_02_57_34.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_ffffg-10_05_2018_02_57_34.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_34.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_34.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Start verify login]]>
+    </line>
+    <line>
+      <![CDATA[entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-iftt and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-10_05_2018_02_57_37.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-10_05_2018_02_57_37.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_37.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_37.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Start verify login]]>
+    </line>
+    <line>
+      <![CDATA[entered facility id:-- and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-ift and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--10_05_2018_02_57_40.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--10_05_2018_02_57_40.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_40.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_40.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Start verify login]]>
+    </line>
+    <line>
+      <![CDATA[entered facility id:-__12345 and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-- and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin___12345-10_05_2018_02_57_43.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin___12345-10_05_2018_02_57_43.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_43.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_43.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Start verify login]]>
+    </line>
+    <line>
+      <![CDATA[entered facility id:-- and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-- and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--10_05_2018_02_57_46.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--10_05_2018_02_57_46.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_46.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_46.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Start verify login]]>
+    </line>
+    <line>
+      <![CDATA[entered facility id:-!#@@@ and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+    </line>
+    <line>
+      <![CDATA[entered password:-ssss and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_!#@@@-10_05_2018_02_57_49.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_!#@@@-10_05_2018_02_57_49.png' height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[=========>Finished verify login]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_49.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_49.png' height='100' width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression suite 1" duration-ms="32930" started-at="2018-05-10T09:27:17Z" finished-at="2018-05-10T09:27:50Z">
+    <groups>
+    </groups>
+    <test name="LoginPage" duration-ms="32930" started-at="2018-05-10T09:27:17Z" finished-at="2018-05-10T09:27:50Z">
+      <class name="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="setUp" is-config="true" duration-ms="5452" started-at="2018-05-10T09:27:17Z" finished-at="2018-05-10T09:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2018-05-10T09:27:23Z" finished-at="2018-05-10T09:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="verifyLogin" duration-ms="5246" started-at="2018-05-10T09:27:23Z" data-provider="loginData" finished-at="2018-05-10T09:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[helloo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ift]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Start verify login]]>
+            </line>
+            <line>
+              <![CDATA[entered facility id:-helloo and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-ift and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_helloo-10_05_2018_02_57_28.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_helloo-10_05_2018_02_57_28.png' height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="afterMethod" is-config="true" duration-ms="287" started-at="2018-05-10T09:27:29Z" finished-at="2018-05-10T09:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b] output==========>Start verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_29.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_29.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-05-10T09:27:29Z" finished-at="2018-05-10T09:27:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="verifyLogin" duration-ms="2569" started-at="2018-05-10T09:27:29Z" data-provider="loginData" finished-at="2018-05-10T09:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fp-ifttest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hhh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Start verify login]]>
+            </line>
+            <line>
+              <![CDATA[entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-hhh and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-10_05_2018_02_57_31.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-10_05_2018_02_57_31.png' height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="afterMethod" is-config="true" duration-ms="292" started-at="2018-05-10T09:27:32Z" finished-at="2018-05-10T09:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b] output==========>Start verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_32.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_32.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="verifyLogin" duration-ms="2571" started-at="2018-05-10T09:27:32Z" data-provider="loginData" finished-at="2018-05-10T09:27:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ffffg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fffff]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Start verify login]]>
+            </line>
+            <line>
+              <![CDATA[entered facility id:-ffffg and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-fffff and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_ffffg-10_05_2018_02_57_34.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_ffffg-10_05_2018_02_57_34.png' height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-05-10T09:27:32Z" finished-at="2018-05-10T09:27:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="afterMethod" is-config="true" duration-ms="300" started-at="2018-05-10T09:27:34Z" finished-at="2018-05-10T09:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b] output==========>Start verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_34.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_34.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-05-10T09:27:35Z" finished-at="2018-05-10T09:27:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="verifyLogin" duration-ms="2661" started-at="2018-05-10T09:27:35Z" data-provider="loginData" finished-at="2018-05-10T09:27:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fp-ifttest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iftt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Start verify login]]>
+            </line>
+            <line>
+              <![CDATA[entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-iftt and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-10_05_2018_02_57_37.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-10_05_2018_02_57_37.png' height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="afterMethod" is-config="true" duration-ms="280" started-at="2018-05-10T09:27:37Z" finished-at="2018-05-10T09:27:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b] output==========>Start verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_37.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_37.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-05-10T09:27:38Z" finished-at="2018-05-10T09:27:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="verifyLogin" duration-ms="2581" started-at="2018-05-10T09:27:38Z" data-provider="loginData" finished-at="2018-05-10T09:27:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ift]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Start verify login]]>
+            </line>
+            <line>
+              <![CDATA[entered facility id:-- and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-ift and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--10_05_2018_02_57_40.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--10_05_2018_02_57_40.png' height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="afterMethod" is-config="true" duration-ms="299" started-at="2018-05-10T09:27:40Z" finished-at="2018-05-10T09:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b] output==========>Start verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_40.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_40.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="verifyLogin" duration-ms="2641" started-at="2018-05-10T09:27:41Z" data-provider="loginData" finished-at="2018-05-10T09:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[__12345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Start verify login]]>
+            </line>
+            <line>
+              <![CDATA[entered facility id:-__12345 and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-- and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin___12345-10_05_2018_02_57_43.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin___12345-10_05_2018_02_57_43.png' height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-05-10T09:27:41Z" finished-at="2018-05-10T09:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="afterMethod" is-config="true" duration-ms="296" started-at="2018-05-10T09:27:43Z" finished-at="2018-05-10T09:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b] output==========>Start verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_43.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_43.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-05-10T09:27:43Z" finished-at="2018-05-10T09:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="verifyLogin" duration-ms="2555" started-at="2018-05-10T09:27:43Z" data-provider="loginData" finished-at="2018-05-10T09:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Start verify login]]>
+            </line>
+            <line>
+              <![CDATA[entered facility id:-- and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-- and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--10_05_2018_02_57_46.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--10_05_2018_02_57_46.png' height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="afterMethod" is-config="true" duration-ms="284" started-at="2018-05-10T09:27:46Z" finished-at="2018-05-10T09:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b] output==========>Start verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_46.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_46.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-05-10T09:27:46Z" finished-at="2018-05-10T09:27:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="verifyLogin" duration-ms="2577" started-at="2018-05-10T09:27:46Z" data-provider="loginData" finished-at="2018-05-10T09:27:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!#@@@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ssss]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=========>Start verify login]]>
+            </line>
+            <line>
+              <![CDATA[entered facility id:-!#@@@ and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtUserId"]]]]>
+            </line>
+            <line>
+              <![CDATA[entered password:-ssss and object is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="txtPassword"]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on configuration button is[[ChromeDriver: chrome on XP (586589e9eb54389a924dbfe7f9d710d4)] -> xpath: //*[@id="btnLogIn"]]]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_!#@@@-10_05_2018_02_57_49.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_!#@@@-10_05_2018_02_57_49.png' height='100' width='100'/></a>]]>
+            </line>
+            <line>
+              <![CDATA[=========>Finished verify login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="afterMethod" is-config="true" duration-ms="275" started-at="2018-05-10T09:27:49Z" finished-at="2018-05-10T09:27:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b] output==========>Start verify login]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_49.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\Screenshot-10_05_2018_02_57_49.png' height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.test.automation.RakuRaku.loginpage.TC002_Verifylogin@5bcea91b]" name="endTest" is-config="true" duration-ms="1048" started-at="2018-05-10T09:27:49Z" finished-at="2018-05-10T09:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.RakuRaku.loginpage.TC002_Verifylogin -->
+    </test> <!-- LoginPage -->
+  </suite> <!-- Regression suite 1 -->
+</testng-results>

@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression_suite_1">
+              <span class="suite-name border-skipped">Regression suite 1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_suite_1">
+                    <span>C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\testNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_suite_1">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression_suite_1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression_suite_1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_suite_1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_suite_1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_suite_1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,  1 skipped,  19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Regression_suite_1" class="hide-methods skipped suite-Regression_suite_1"> (hide)</a> <!-- hide-methods skipped suite-Regression_suite_1 -->
+                      <a href="#" panel-name="suite-Regression_suite_1" class="show-methods skipped suite-Regression_suite_1"> (show)</a> <!-- show-methods skipped suite-Regression_suite_1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Regression_suite_1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(fp-ifttest, hhh, y)">verifyLogin(fp-ifttest, hhh, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Regression_suite_1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_suite_1" class="hide-methods passed suite-Regression_suite_1"> (hide)</a> <!-- hide-methods passed suite-Regression_suite_1 -->
+                      <a href="#" panel-name="suite-Regression_suite_1" class="show-methods passed suite-Regression_suite_1"> (show)</a> <!-- show-methods passed suite-Regression_suite_1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_suite_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.apiserverdown.TC006_ApiServerDown" hash-for-method="apiServerDown(fp-ifttest, ift, y)">apiServerDown(fp-ifttest, ift, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation" hash-for-method="callTaxibutton(fp-ifttest, ift, y)">callTaxibutton(fp-ifttest, ift, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking" hash-for-method="reservationBooking(fp-ifttest, ift, y)">reservationBooking(fp-ifttest, ift, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.homepage.TC003_VerifyRideNowBooking" hash-for-method="rideNow(fp-ifttest, ift, y)">rideNow(fp-ifttest, ift, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(!#@@@, ssss, y)">verifyLogin(!#@@@, ssss, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(-, -, y)">verifyLogin(-, -, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(__12345, -, y)">verifyLogin(__12345, -, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(-, ift, y)">verifyLogin(-, ift, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(fp-ifttest, hhh, y)">verifyLogin(fp-ifttest, hhh, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(fp-ifttest, iftt, y)">verifyLogin(fp-ifttest, iftt, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(helloo, ift, y)">verifyLogin(helloo, ift, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC002_Verifylogin" hash-for-method="verifyLogin(ffffg, fffff, y)">verifyLogin(ffffg, fffff, y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" hash-for-method="verifyLogin_EmptyID_EmptyPassword">verifyLogin_EmptyID_EmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" hash-for-method="verifyLogin_EmptyID_InvalidPassword">verifyLogin_EmptyID_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" hash-for-method="verifyLogin_EmptyID_ValidPassword">verifyLogin_EmptyID_ValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" hash-for-method="verifyLogin_InvalidID_EmptyPassword">verifyLogin_InvalidID_EmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" hash-for-method="verifyLogin_InvalidID_InvalidPassword">verifyLogin_InvalidID_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" hash-for-method="verifyLogin_InvalidID_ValidPassword">verifyLogin_InvalidID_ValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite_1" title="com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails" hash-for-method="verifyLogin_ValidID_EmptyPassword">verifyLogin_ValidID_EmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_suite_1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_suite_1" class="panel Regression_suite_1">
+          <div class="suite-Regression_suite_1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.test.automation.RakuRaku.loginpage.TC002_Verifylogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(fp-ifttest, hhh, y)">
+                  </a> <!-- verifyLogin(fp-ifttest, hhh, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(fp-ifttest, hhh, y)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;button&quot; class=&quot;btn blue btn-lg btn-block rounded-3 font-hg bold&quot; id=&quot;btnLogIn&quot;&gt;...&lt;/button&gt; is not clickable at point (640, 228). Other element would receive the click: &lt;div class=&quot;blockUI blockOverlay&quot; style=&quot;z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(85, 85, 85); opacity: 0.9; cursor: wait; position: fixed;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NAGARJUNA-Y&apos;, ip: &apos;192.168.167.149&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\NAGARJ~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 8a31d23a2510aebbf6bd81efd89b9a9d
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.test.automation.RakuRaku.uiActions.LoginPage.loginToApplication(LoginPage.java:47)
+	at com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(TC002_Verifylogin.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite_1-class-skipped -->
+          <div class="suite-Regression_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.automation.RakuRaku.apiserverdown.TC006_ApiServerDown</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="apiServerDown(fp-ifttest, ift, y)">
+                  </a> <!-- apiServerDown(fp-ifttest, ift, y) -->
+                  <span class="method-name">apiServerDown</span>
+                  <span class="parameters">(fp-ifttest, ift, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite_1-class-passed -->
+          <div class="suite-Regression_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.automation.RakuRaku.loginpage.TC002_Verifylogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(!#@@@, ssss, y)">
+                  </a> <!-- verifyLogin(!#@@@, ssss, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(!#@@@, ssss, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(-, -, y)">
+                  </a> <!-- verifyLogin(-, -, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(-, -, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(__12345, -, y)">
+                  </a> <!-- verifyLogin(__12345, -, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(__12345, -, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(-, ift, y)">
+                  </a> <!-- verifyLogin(-, ift, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(-, ift, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(fp-ifttest, hhh, y)">
+                  </a> <!-- verifyLogin(fp-ifttest, hhh, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(fp-ifttest, hhh, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(fp-ifttest, iftt, y)">
+                  </a> <!-- verifyLogin(fp-ifttest, iftt, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(fp-ifttest, iftt, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(helloo, ift, y)">
+                  </a> <!-- verifyLogin(helloo, ift, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(helloo, ift, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(ffffg, fffff, y)">
+                  </a> <!-- verifyLogin(ffffg, fffff, y) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(ffffg, fffff, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite_1-class-passed -->
+          <div class="suite-Regression_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_EmptyID_EmptyPassword">
+                  </a> <!-- verifyLogin_EmptyID_EmptyPassword -->
+                  <span class="method-name">verifyLogin_EmptyID_EmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_EmptyID_InvalidPassword">
+                  </a> <!-- verifyLogin_EmptyID_InvalidPassword -->
+                  <span class="method-name">verifyLogin_EmptyID_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_EmptyID_ValidPassword">
+                  </a> <!-- verifyLogin_EmptyID_ValidPassword -->
+                  <span class="method-name">verifyLogin_EmptyID_ValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_InvalidID_EmptyPassword">
+                  </a> <!-- verifyLogin_InvalidID_EmptyPassword -->
+                  <span class="method-name">verifyLogin_InvalidID_EmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_InvalidID_InvalidPassword">
+                  </a> <!-- verifyLogin_InvalidID_InvalidPassword -->
+                  <span class="method-name">verifyLogin_InvalidID_InvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_InvalidID_ValidPassword">
+                  </a> <!-- verifyLogin_InvalidID_ValidPassword -->
+                  <span class="method-name">verifyLogin_InvalidID_ValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin_ValidID_EmptyPassword">
+                  </a> <!-- verifyLogin_ValidID_EmptyPassword -->
+                  <span class="method-name">verifyLogin_ValidID_EmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite_1-class-passed -->
+          <div class="suite-Regression_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.automation.RakuRaku.homepage.TC003_VerifyRideNowBooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rideNow(fp-ifttest, ift, y)">
+                  </a> <!-- rideNow(fp-ifttest, ift, y) -->
+                  <span class="method-name">rideNow</span>
+                  <span class="parameters">(fp-ifttest, ift, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite_1-class-passed -->
+          <div class="suite-Regression_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="callTaxibutton(fp-ifttest, ift, y)">
+                  </a> <!-- callTaxibutton(fp-ifttest, ift, y) -->
+                  <span class="method-name">callTaxibutton</span>
+                  <span class="parameters">(fp-ifttest, ift, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite_1-class-passed -->
+          <div class="suite-Regression_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reservationBooking(fp-ifttest, ift, y)">
+                  </a> <!-- reservationBooking(fp-ifttest, ift, y) -->
+                  <span class="method-name">reservationBooking</span>
+                  <span class="parameters">(fp-ifttest, ift, y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite_1-class-passed -->
+        </div> <!-- panel Regression_suite_1 -->
+        <div panel-name="test-xml-Regression_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\testNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Regression suite 1&quot; parallel=&quot;classes&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.test.automation.RakuRaku.customListener.Listener&quot;/&gt;
+    &lt;listener class-name=&quot;com.test.automation.RakuRaku.customListener.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;LoginPage&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails&quot;/&gt;
+      &lt;class name=&quot;com.test.automation.RakuRaku.loginpage.TC002_Verifylogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginPage --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Reservation-Booking&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking&quot;/&gt;
+      &lt;class name=&quot;com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Reservation-Booking --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;RideNow-Booking&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.automation.RakuRaku.homepage.TC003_VerifyRideNowBooking&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RideNow-Booking --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;API_Server_Down&quot; parallel=&quot;classes&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.test.automation.RakuRaku.apiserverdown.TC006_ApiServerDown&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API_Server_Down --&gt;
+&lt;/suite&gt; &lt;!-- Regression suite 1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginPage (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Reservation-Booking (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">RideNow-Booking (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">API_Server_Down (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_suite_1');
+function tableData_Regression_suite_1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'rideNow')
+data.setCell(0, 2, 'com.test.automation.RakuRaku.homepage.TC003_VerifyRideNowBooking')
+data.setCell(0, 3, 227947);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'reservationBooking')
+data.setCell(1, 2, 'com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking')
+data.setCell(1, 3, 46809);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'callTaxibutton')
+data.setCell(2, 2, 'com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation')
+data.setCell(2, 3, 7171);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyLogin_InvalidID_ValidPassword')
+data.setCell(3, 2, 'com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails')
+data.setCell(3, 3, 5151);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLogin')
+data.setCell(4, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(4, 3, 4792);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'apiServerDown')
+data.setCell(5, 2, 'com.test.automation.RakuRaku.apiserverdown.TC006_ApiServerDown')
+data.setCell(5, 3, 4453);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLogin_InvalidID_InvalidPassword')
+data.setCell(6, 2, 'com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails')
+data.setCell(6, 3, 2773);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyLogin')
+data.setCell(7, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(7, 3, 2688);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyLogin')
+data.setCell(8, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(8, 3, 2678);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyLogin')
+data.setCell(9, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(9, 3, 2620);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLogin')
+data.setCell(10, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(10, 3, 2612);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyLogin')
+data.setCell(11, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(11, 3, 2605);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyLogin')
+data.setCell(12, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(12, 3, 2594);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLogin')
+data.setCell(13, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(13, 3, 2556);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLogin_EmptyID_EmptyPassword')
+data.setCell(14, 2, 'com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails')
+data.setCell(14, 3, 2397);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyLogin_ValidID_EmptyPassword')
+data.setCell(15, 2, 'com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails')
+data.setCell(15, 3, 2349);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyLogin_InvalidID_EmptyPassword')
+data.setCell(16, 2, 'com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails')
+data.setCell(16, 3, 2315);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyLogin')
+data.setCell(17, 2, 'com.test.automation.RakuRaku.loginpage.TC002_Verifylogin')
+data.setCell(17, 3, 2280);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyLogin_EmptyID_ValidPassword')
+data.setCell(18, 2, 'com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails')
+data.setCell(18, 3, 2267);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyLogin_EmptyID_InvalidPassword')
+data.setCell(19, 2, 'com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails')
+data.setCell(19, 3, 2260);
+window.suiteTableData['Regression_suite_1']= { tableData: data, tableDiv: 'times-div-Regression_suite_1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Regression_suite_1">
+              </div> <!-- times-div-Regression_suite_1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression suite 1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(!#@@@, ssss, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-!#@@@ and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ssss and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_!#@@@-11_05_2018_10_12_44.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_!#@@@-11_05_2018_10_12_44.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished verify login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(-, -, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-- and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-- and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--11_05_2018_10_12_41.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--11_05_2018_10_12_41.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished verify login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin_InvalidID_InvalidPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:-ifttest and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-helllo and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="btnLogIn"]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(__12345, -, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-__12345 and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-- and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin___12345-11_05_2018_10_12_39.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin___12345-11_05_2018_10_12_39.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished verify login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin_EmptyID_EmptyPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:- and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:- and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="btnLogIn"]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin_EmptyID_InvalidPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:- and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-123 and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="btnLogIn"]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(-, ift, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-- and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ift and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--11_05_2018_10_12_36.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_--11_05_2018_10_12_36.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished verify login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(fp-ifttest, hhh, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-hhh and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-11_05_2018_10_12_27.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-11_05_2018_10_12_27.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished verify login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin_InvalidID_ValidPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:-heloooo and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ift and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\パスワードの検証に失敗しました-11_05_2018_10_12_58.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\パスワードの検証に失敗しました-11_05_2018_10_12_58.png' height='100' width='100'/></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(fp-ifttest, iftt, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-iftt and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-11_05_2018_10_12_33.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_fp-ifttest-11_05_2018_10_12_33.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished verify login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin_ValidID_EmptyPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:- and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="btnLogIn"]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(helloo, ift, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-helloo and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ift and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_helloo-11_05_2018_10_12_22.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_helloo-11_05_2018_10_12_22.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished verify login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin_InvalidID_EmptyPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:-ifttest and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:- and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="btnLogIn"]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(ffffg, fffff, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-ffffg and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-fffff and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_ffffg-11_05_2018_10_12_30.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\verifyLogin_ffffg-11_05_2018_10_12_30.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished verify login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin_EmptyID_ValidPassword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:- and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ift and object is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (7d029db0949fda3540148278a5d247b2)] -> xpath: //*[@id="btnLogIn"]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(fp-ifttest, hhh, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">=========>Start verify login</span>
+                <span class="reporter-method-output">entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-hhh and object is[[ChromeDriver: chrome on XP (8a31d23a2510aebbf6bd81efd89b9a9d)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Retrying testverifyLoginwith status nullfor the1time(s).</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">reservationBooking(fp-ifttest, ift, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ift and object is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\ift-11_05_2018_10_13_21.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\ift-11_05_2018_10_13_21.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Enter reservation booking details</span>
+                <span class="reporter-method-output">entered customer name id:-Kiran and object is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="txtName"]]</span>
+                <span class="reporter-method-output">Clicked on reservation button is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="frmBookingDetails"]/div/div[4]/div[1]/div/div[2]/label/span[3]]</span>
+                <span class="reporter-method-output">Clicked on date picker is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="ddlDate"]]</span>
+                <span class="reporter-method-output">Selected date from dropdown is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="ddlDate"]/option[7]]</span>
+                <span class="reporter-method-output">Clicked on cars dropdown is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="ddlVehicleQty"]]</span>
+                <span class="reporter-method-output">Select cars from dropdown is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> xpath: //*[@id="ddlVehicleQty"]/option[2]]</span>
+                <span class="reporter-method-output">entered remarks id:-landmark and object is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> id: txtRemarks]</span>
+                <span class="reporter-method-output">Clicked on call taxi button is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> id: btnCallTaxi]</span>
+                <span class="reporter-method-output">Clicked on yes button is[[ChromeDriver: chrome on XP (8ce1c53242c2e9a140d7387e6b9488e0)] -> id: btnYes]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\landmark-11_05_2018_10_13_33.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\landmark-11_05_2018_10_13_33.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Allocating taxi please wait</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\ご注文ありがとうございます。-11_05_2018_10_14_04.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\ご注文ありがとうございます。-11_05_2018_10_14_04.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished reservation booking with order accepted receipt</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">callTaxibutton(fp-ifttest, ift, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (98d855a6d2e458c499d8a6a7c09b302a)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ift and object is[[ChromeDriver: chrome on XP (98d855a6d2e458c499d8a6a7c09b302a)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (98d855a6d2e458c499d8a6a7c09b302a)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output">Clicked on call taxi button is[[ChromeDriver: chrome on XP (98d855a6d2e458c499d8a6a7c09b302a)] -> xpath: //*[@id="btnCallTaxi"]]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\いくつかのエラーがあります。チェックしてください。-11_05_2018_10_14_16.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\いくつかのエラーがあります。チェックしてください。-11_05_2018_10_14_16.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">rideNow(fp-ifttest, ift, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ift and object is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> xpath: //*[@id="btnLogIn"]]</span>
+                <span class="reporter-method-output">=========>Start Ride Now Booking</span>
+                <span class="reporter-method-output">entered customer name id:-Rahul and object is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> xpath: //*[@id="txtName"]]</span>
+                <span class="reporter-method-output">Clicked on cars dropdown is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> xpath: //*[@id="ddlVehicleQty"]]</span>
+                <span class="reporter-method-output">Select cars from dropdown is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> xpath: //*[@id="ddlVehicleQty"]/option[2]]</span>
+                <span class="reporter-method-output">entered remarks id:-landmark and object is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> id: txtRemarks]</span>
+                <span class="reporter-method-output">Clicked on call taxi button is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> id: btnCallTaxi]</span>
+                <span class="reporter-method-output">Clicked on yes button is[[ChromeDriver: chrome on XP (d628f6a575926c60d4b281c30c0faae1)] -> id: btnYes]</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\landmark-11_05_2018_10_14_33.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\landmark-11_05_2018_10_14_33.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Spinner loading</span>
+                <span class="reporter-method-output"><a href='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\お迎えに行けるタクシーが見つかりませんでした-11_05_2018_10_18_09.png'><img src='C:\Users\nagarjuna\eclipse-workspace\gitrepo\RakuRaku\src\main\java\com\test\automation\RakuRaku\screenshot\お迎えに行けるタクシーが見つかりませんでした-11_05_2018_10_18_09.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output">=========>Finished Ride Now Booking and Taxi not allocated</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">apiServerDown(fp-ifttest, ift, y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">entered facility id:-fp-ifttest and object is[[ChromeDriver: chrome on XP (9c0748cc8cb8fd798483454b66f4a7fa)] -> xpath: //*[@id="txtUserId"]]</span>
+                <span class="reporter-method-output">entered password:-ift and object is[[ChromeDriver: chrome on XP (9c0748cc8cb8fd798483454b66f4a7fa)] -> xpath: //*[@id="txtPassword"]]</span>
+                <span class="reporter-method-output">Clicked on configuration button is[[ChromeDriver: chrome on XP (9c0748cc8cb8fd798483454b66f4a7fa)] -> xpath: //*[@id="btnLogIn"]]</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_suite_1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.automation.RakuRaku.loginpage.TC002_Verifylogin</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">11035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(helloo, ift, y)</span>
+                <span class="method-start">11040 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, j...)</span>
+                <span class="method-start">15833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">16132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(fp-ifttest, hhh, y)</span>
+                <span class="method-start">16133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SKIP method=TC002_Verifylogin.verifyLogin(java.lang.String, java...)</span>
+                <span class="method-start">18415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">18474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(fp-ifttest, hhh, y)</span>
+                <span class="method-start">18476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, j...)</span>
+                <span class="method-start">21070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">21353 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(ffffg, fffff, y)</span>
+                <span class="method-start">21354 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, j...)</span>
+                <span class="method-start">23911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">24186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(fp-ifttest, iftt, y)</span>
+                <span class="method-start">24186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, j...)</span>
+                <span class="method-start">26864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">27146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(-, ift, y)</span>
+                <span class="method-start">27147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, j...)</span>
+                <span class="method-start">29769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">30039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(__12345, -, y)</span>
+                <span class="method-start">30039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, j...)</span>
+                <span class="method-start">32651 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">32937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(-, -, y)</span>
+                <span class="method-start">32937 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, j...)</span>
+                <span class="method-start">35542 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC002_Verifylogin.verifyLogin(java.lang.String,ja...)</span>
+                <span class="method-start">35828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(!#@@@, ssss, y)</span>
+                <span class="method-start">35828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin status=SUCCESS method=TC002_Verifylogin.verifyLogin(java.lang.String, j...)</span>
+                <span class="method-start">38516 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">38806 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39847 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails.verifyLog...)</span>
+                <span class="method-start">44003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_EmptyID_EmptyPassword</span>
+                <span class="method-start">44003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin_EmptyID_EmptyPassword status=SUCCESS method=TC001_VerifyLoginWithInvali...)</span>
+                <span class="method-start">46401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails.verifyLog...)</span>
+                <span class="method-start">46708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_InvalidID_ValidPassword</span>
+                <span class="method-start">46708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin_InvalidID_ValidPassword status=SUCCESS method=TC001_VerifyLoginWithInva...)</span>
+                <span class="method-start">51859 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails.verifyLog...)</span>
+                <span class="method-start">52168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_EmptyID_ValidPassword</span>
+                <span class="method-start">52168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin_EmptyID_ValidPassword status=SUCCESS method=TC001_VerifyLoginWithInvali...)</span>
+                <span class="method-start">54436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails.verifyLog...)</span>
+                <span class="method-start">54718 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_ValidID_EmptyPassword</span>
+                <span class="method-start">54718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin_ValidID_EmptyPassword status=SUCCESS method=TC001_VerifyLoginWithInvali...)</span>
+                <span class="method-start">57068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails.verifyLog...)</span>
+                <span class="method-start">57350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_InvalidID_InvalidPassword</span>
+                <span class="method-start">57350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin_InvalidID_InvalidPassword status=SUCCESS method=TC001_VerifyLoginWithIn...)</span>
+                <span class="method-start">60124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails.verifyLog...)</span>
+                <span class="method-start">60420 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_InvalidID_EmptyPassword</span>
+                <span class="method-start">60420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin_InvalidID_EmptyPassword status=SUCCESS method=TC001_VerifyLoginWithInva...)</span>
+                <span class="method-start">62735 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.loginpage.TC001_VerifyLoginWithInvalidCredentails.verifyLog...)</span>
+                <span class="method-start">63019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin_EmptyID_InvalidPassword</span>
+                <span class="method-start">63020 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=verifyLogin_EmptyID_InvalidPassword status=SUCCESS method=TC001_VerifyLoginWithInva...)</span>
+                <span class="method-start">65280 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">65567 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66374 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.homepage.TC005_VerifyReservationbooking.reservationBooking(...)</span>
+                <span class="method-start">70922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">reservationBooking(fp-ifttest, ift, y)</span>
+                <span class="method-start">70922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=reservationBooking status=SUCCESS method=TC005_VerifyReservationbooking.reservation...)</span>
+                <span class="method-start">117731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">118039 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">118794 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.homepage.TC007_CallTaxiScreen_Bookingdetails_Validation.cal...)</span>
+                <span class="method-start">122993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">callTaxibutton(fp-ifttest, ift, y)</span>
+                <span class="method-start">122993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=callTaxibutton status=SUCCESS method=TC007_CallTaxiScreen_Bookingdetails_Validation...)</span>
+                <span class="method-start">130164 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">130595 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.automation.RakuRaku.homepage.TC003_VerifyRideNowBooking</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">131351 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.homepage.TC003_VerifyRideNowBooking.rideNow(java.lang.Strin...)</span>
+                <span class="method-start">135496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rideNow(fp-ifttest, ift, y)</span>
+                <span class="method-start">135497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=rideNow status=SUCCESS method=TC003_VerifyRideNowBooking.rideNow(java.lang.String, ...)</span>
+                <span class="method-start">363444 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">363764 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.automation.RakuRaku.apiserverdown.TC006_ApiServerDown</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">364568 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.test.automation.RakuRaku.apiserverdown.TC006_ApiServerDown.apiServerDown(java.lang.S...)</span>
+                <span class="method-start">368922 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">apiServerDown(fp-ifttest, ift, y)</span>
+                <span class="method-start">368923 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=apiServerDown status=SUCCESS method=TC006_ApiServerDown.apiServerDown(java.lang.Str...)</span>
+                <span class="method-start">373376 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">373671 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
